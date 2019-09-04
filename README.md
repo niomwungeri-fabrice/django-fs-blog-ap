@@ -1,1 +1,1 @@
-# django-fs-blog-ap
+# Django FullStack Blog App
