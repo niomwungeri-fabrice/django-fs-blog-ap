@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for post in all_posts %}
+        <div class='post-entry'>
+            <h2><a href="{% url 'single_post' post.pk %}">{{ post.title }}</a></h2>
+            <p>{{ post.body }}</p>
+            <span class='author-time'>written by {{ post.author }} on {{post.create_at}}</span>
+        </div>
+    {% endfor %}
+{% endblock content %}

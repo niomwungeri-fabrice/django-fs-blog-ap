@@ -1,0 +1,1 @@
+# django-fs-blog-ap
